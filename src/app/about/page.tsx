@@ -65,6 +65,11 @@ export default function AboutPage() {
                   As a transatlantic knowledge bridge, our vision is to foster an informed, economically empowered, and gender-inclusive diaspora that drives sustainable development. We carry out this mission by promoting economic literacy and gender equity through education, public health awareness, and policy dialogue on trade, economic, and fiscal policy across our focus regions.
                 </p>
               </FadeUp>
+              <FadeUp delay={0.3}>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  AWIDA organises programs to ensure total economic advancement and resilient community development for the vulnerable.
+                </p>
+              </FadeUp>
             </div>
 
           </div>
