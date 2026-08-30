@@ -4,7 +4,8 @@
   --color-awida-green: #054C28;
   --color-awida-red: #841A25;
   --color-awida-gold: #D8B138;
-  --font-inter: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-lato: var(--font-lato), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-lato), ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
