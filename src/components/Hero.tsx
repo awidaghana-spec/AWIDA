@@ -61,7 +61,7 @@ export default function Hero() {
             </div>
             
             <FadeUp delay={0.5}>
-              <div className="flex flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-0 lg:pt-4 w-full">
+              <div className="flex flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-8 lg:pt-4 w-full">
                 <Link href="#programs" className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-awida-green text-white px-2 sm:px-8 py-3 sm:py-3.5 rounded-full font-medium hover:bg-green-800 transition-all hover:-translate-y-0.5 whitespace-nowrap text-sm sm:text-base">
                   Learn Policy
                 </Link>
