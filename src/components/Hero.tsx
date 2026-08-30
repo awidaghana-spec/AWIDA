@@ -37,20 +37,31 @@ export default function Hero() {
             {/* Image Map - Mobile Only */}
             <div className="w-full relative lg:hidden pt-2 -mb-4">
               <FadeUp delay={0.2} duration={0.8} yOffset={20}>
-                <div className="relative w-full aspect-square max-w-[340px] sm:max-w-[400px] mx-auto">
-                  <Image 
-                    src="/continent.svg" 
-                    alt="Africa Continent" 
-                    fill 
-                    className="object-contain"
-                    priority
-                  />
+                <div className="relative w-full aspect-[4/3] max-w-[400px] sm:max-w-[500px] mx-auto">
+                  <div className="absolute top-[20%] -left-[15%] w-[80%] h-[85%] z-10 pointer-events-none rotate-[25deg]">
+                    <Image 
+                      src="/carribean (1).svg" 
+                      alt="Caribbean Map" 
+                      fill 
+                      className="object-contain"
+                      priority
+                    />
+                  </div>
+                  <div className="absolute top-0 right-0 w-[75%] h-[100%]">
+                    <Image 
+                      src="/continent.svg" 
+                      alt="Africa Continent" 
+                      fill 
+                      className="object-contain"
+                      priority
+                    />
+                  </div>
                 </div>
               </FadeUp>
             </div>
             
             <FadeUp delay={0.5}>
-              <div className="flex flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-0 lg:pt-4 w-full">
+              <div className="flex flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 pt-8 lg:pt-4 w-full">
                 <Link href="#programs" className="flex-1 sm:flex-none flex items-center justify-center gap-2 bg-awida-green text-white px-2 sm:px-8 py-3 sm:py-3.5 rounded-full font-medium hover:bg-green-800 transition-all hover:-translate-y-0.5 whitespace-nowrap text-sm sm:text-base">
                   Learn Policy
                 </Link>
@@ -64,14 +75,25 @@ export default function Hero() {
           {/* Image Map (Right) - Desktop Only */}
           <div className="hidden lg:block w-full lg:w-1/2 relative">
             <FadeUp delay={0.4} duration={0.8} yOffset={40}>
-              <div className="relative w-full aspect-square max-w-[500px] lg:max-w-[600px] mx-auto lg:-translate-y-4 lg:translate-x-12">
-                <Image 
-                  src="/continent.svg" 
-                  alt="Africa Continent" 
-                  fill 
-                  className="object-contain"
-                  priority
-                />
+              <div className="relative w-full aspect-[4/3] max-w-[600px] lg:max-w-[700px] mx-auto lg:-translate-y-4 lg:translate-x-8">
+                <div className="absolute top-[20%] -left-[15%] w-[80%] h-[85%] z-10 pointer-events-none rotate-[25deg]">
+                  <Image 
+                    src="/carribean (1).svg" 
+                    alt="Caribbean Map" 
+                    fill 
+                    className="object-contain"
+                    priority
+                  />
+                </div>
+                <div className="absolute top-0 right-0 w-[75%] h-[100%]">
+                  <Image 
+                    src="/continent.svg" 
+                    alt="Africa Continent" 
+                    fill 
+                    className="object-contain"
+                    priority
+                  />
+                </div>
               </div>
             </FadeUp>
           </div>
