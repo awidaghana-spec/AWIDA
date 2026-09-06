@@ -90,6 +90,62 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* FOUNDER SECTION */}
+      <section className="py-20 md:py-28 px-4 bg-white">
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex flex-col lg:flex-row gap-12 items-start">
+            
+            {/* Image Side */}
+            <div className="w-full lg:w-1/2">
+              <FadeUp className="relative w-full aspect-[4/5] rounded-2xl overflow-hidden">
+                <Image 
+                  src="/Mr Akpabey.png" 
+                  alt="Gilbert C. Akpabey" 
+                  fill
+                  className="object-cover object-top"
+                />
+              </FadeUp>
+            </div>
+
+            {/* Content Side */}
+            <div className="w-full lg:w-1/2 space-y-6">
+              <FadeUp>
+                <h3 className="text-awida-red font-semibold tracking-wider uppercase text-sm mb-2">
+                  FOUNDER, ACML
+                </h3>
+                <h2 className="font-lato text-4xl md:text-5xl font-bold text-gray-900">
+                  Gilbert C. Akpabey
+                </h2>
+              </FadeUp>
+              
+              <FadeUp delay={0.1}>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  Gilbert C. Akpabey is an accomplished accounting, auditing, taxation, and management consulting professional with more than four decades of experience across Ghana, Nigeria, and the United States.
+                </p>
+              </FadeUp>
+              
+              <FadeUp delay={0.2}>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  His career spans financial management, internal controls, fraud investigation, public-sector oversight, taxation, and strategic business advisory. He has held senior professional roles in both public and private institutions and currently serves as Chairman and Lead Consultant of Akpabey Group LLC.
+                </p>
+              </FadeUp>
+              
+              <FadeUp delay={0.3}>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  Beyond his consulting work, Mr. Akpabey is the founder of African-Caribbean Manufacturing Ltd (A-CML) and the African West Indies Diaspora Alliance (AWIDA), reflecting his broader commitment to enterprise development, international collaboration, and strengthening connections between Africa and the Caribbean diaspora.
+                </p>
+              </FadeUp>
+
+              <FadeUp delay={0.4}>
+                <p className="text-gray-600 leading-relaxed text-lg">
+                  Known for his commitment to integrity, accountability, and professional excellence, Mr. Akpabey brings extensive international experience and strategic insight to helping organizations strengthen their financial systems, improve institutional effectiveness, and pursue sustainable growth.
+                </p>
+              </FadeUp>
+            </div>
+
+          </div>
+        </div>
+      </section>
 
       {/* CTA SECTION */}
       <section className="py-20 md:py-24 px-4 bg-white border-t border-gray-100">
