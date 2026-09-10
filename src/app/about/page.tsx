@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import FadeUp from '@/components/FadeUp';
+import BoardOfDirectors from '@/components/BoardOfDirectors';
 
 export default function AboutPage() {
   return (
@@ -146,6 +147,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* BOARD OF DIRECTORS SECTION */}
+      <BoardOfDirectors />
 
       {/* CTA SECTION */}
       <section className="py-20 md:py-24 px-4 bg-white border-t border-gray-100">
