@@ -112,7 +112,7 @@ export default function AboutPage() {
             <div className="w-full lg:w-1/2 space-y-6">
               <FadeUp>
                 <h3 className="text-awida-red font-semibold tracking-wider uppercase text-sm mb-2">
-                  FOUNDER, ACML
+                  FOUNDER, AWIDA
                 </h3>
                 <h2 className="font-lato text-4xl md:text-5xl font-bold text-gray-900">
                   Gilbert C. Akpabey

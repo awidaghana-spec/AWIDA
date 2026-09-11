@@ -45,7 +45,7 @@ export default function BoardOfDirectors() {
           </FadeUp>
           <FadeUp delay={0.1}>
             <p className="text-gray-600 text-base md:text-lg leading-relaxed">
-              Our governing board provides strategic oversight, institutional accountability, and expert guidance to drive ACML's mission across West Africa.
+              Our governing board provides strategic oversight, institutional accountability, and expert guidance to drive AWIDA's mission across West Africa and the Caribbean diaspora.
             </p>
           </FadeUp>
         </div>
@@ -202,7 +202,7 @@ export default function BoardOfDirectors() {
               {/* Footer */}
               <div className="px-4 sm:px-6 md:px-8 py-3 sm:py-4 border-t border-gray-100 flex items-center justify-between bg-gray-50/60">
                 <span className="text-[11px] sm:text-xs text-gray-400 font-medium truncate max-w-[200px] sm:max-w-none">
-                  African-Caribbean Manufacturing Ltd • Board of Directors
+                  African West Indies Diaspora Alliance (AWIDA) • Board of Directors
                 </span>
                 <button
                   type="button"
